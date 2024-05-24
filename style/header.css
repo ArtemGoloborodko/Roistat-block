@@ -1,0 +1,35 @@
+.nav__block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 31px 0 31px 56px;
+}
+
+.nav__scroll {
+    position: relative; 
+    overflow: hidden; 
+    white-space: nowrap;
+    width: 55%;
+    height: 62px;
+}
+
+.header__list {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0;
+    padding: 0;
+    margin-right: 42px;
+}
+
+.header__item {
+    transition: 0.3s;
+    transform: scale(1);
+ 
+}
+
+.header__item:hover {
+    transition: 0.3s;
+    transform: scale(1.05);
+}

@@ -1,0 +1,15 @@
+.footer {
+    padding-right: 0;
+}
+
+.footer__block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 31px 0 31px 56px;
+    overflow: hidden;
+}
+
+.footer__block p {
+    text-wrap: nowrap;
+}

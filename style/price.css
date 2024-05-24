@@ -1,0 +1,22 @@
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 184px 0 134px 0;
+}
+
+.price__zag {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: clamp(64px, calc(4rem + ((1vw - 7.68px) * 2.6042)), 94px);
+    color: var(--color-white);
+}
+
+.price__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size:clamp(12px, calc(0.75rem + ((1vw - 7.68px) * 0.8681)), 22px);
+    line-height: 130%;
+    color: var(--color-white);
+    max-width: 1128px;
+}
